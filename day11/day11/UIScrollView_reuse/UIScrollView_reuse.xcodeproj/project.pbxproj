@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C15EFF1C09396300031DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C15EFE1C09396300031DCF /* main.m */; };
+		84C15F021C09396300031DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C15F011C09396300031DCF /* AppDelegate.m */; };
+		84C15F051C09396300031DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C15F041C09396300031DCF /* ViewController.m */; };
+		84C15F081C09396300031DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F061C09396300031DCF /* Main.storyboard */; };
+		84C15F0A1C09396300031DCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F091C09396300031DCF /* Images.xcassets */; };
+		84C15F0D1C09396300031DCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F0B1C09396300031DCF /* LaunchScreen.xib */; };
+		84C15F191C09396300031DCF /* UIScrollView_reuseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C15F181C09396300031DCF /* UIScrollView_reuseTests.m */; };
+		84C15F241C093AC200031DCF /* XTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C15F231C093AC200031DCF /* XTScrollView.m */; };
+		84C15F5D1C094C5000031DCF /* image_火影忍者.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F261C094C4F00031DCF /* image_火影忍者.plist */; };
+		84C15F5E1C094C5000031DCF /* 火影01.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F271C094C4F00031DCF /* 火影01.png */; };
+		84C15F5F1C094C5000031DCF /* 火影02.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F281C094C4F00031DCF /* 火影02.png */; };
+		84C15F601C094C5000031DCF /* 火影03.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F291C094C4F00031DCF /* 火影03.png */; };
+		84C15F611C094C5000031DCF /* 火影04.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2A1C094C4F00031DCF /* 火影04.png */; };
+		84C15F621C094C5000031DCF /* 火影05.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2B1C094C4F00031DCF /* 火影05.png */; };
+		84C15F631C094C5000031DCF /* 火影06.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2C1C094C4F00031DCF /* 火影06.png */; };
+		84C15F641C094C5000031DCF /* 火影07.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2D1C094C4F00031DCF /* 火影07.png */; };
+		84C15F651C094C5000031DCF /* 火影08.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2E1C094C4F00031DCF /* 火影08.png */; };
+		84C15F661C094C5000031DCF /* 火影09.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F2F1C094C4F00031DCF /* 火影09.png */; };
+		84C15F671C094C5000031DCF /* 火影10.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F301C094C4F00031DCF /* 火影10.png */; };
+		84C15F681C094C5000031DCF /* 火影11.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F311C094C4F00031DCF /* 火影11.png */; };
+		84C15F691C094C5000031DCF /* 火影12.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F321C094C4F00031DCF /* 火影12.png */; };
+		84C15F6A1C094C5000031DCF /* 火影13.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F331C094C4F00031DCF /* 火影13.png */; };
+		84C15F6B1C094C5000031DCF /* 火影14.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F341C094C4F00031DCF /* 火影14.png */; };
+		84C15F6C1C094C5000031DCF /* 火影15.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F351C094C4F00031DCF /* 火影15.png */; };
+		84C15F6D1C094C5000031DCF /* 火影16.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F361C094C4F00031DCF /* 火影16.png */; };
+		84C15F6E1C094C5000031DCF /* 火影17.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F371C094C4F00031DCF /* 火影17.png */; };
+		84C15F6F1C094C5000031DCF /* 火影18.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F381C094C4F00031DCF /* 火影18.png */; };
+		84C15F701C094C5000031DCF /* 火影19.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F391C094C4F00031DCF /* 火影19.png */; };
+		84C15F711C094C5000031DCF /* 火影20.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3A1C094C4F00031DCF /* 火影20.png */; };
+		84C15F721C094C5000031DCF /* 火影21.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3B1C094C4F00031DCF /* 火影21.png */; };
+		84C15F731C094C5000031DCF /* 火影22.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3C1C094C4F00031DCF /* 火影22.png */; };
+		84C15F741C094C5000031DCF /* 火影23.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3D1C094C4F00031DCF /* 火影23.png */; };
+		84C15F751C094C5000031DCF /* 火影24.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3E1C094C4F00031DCF /* 火影24.png */; };
+		84C15F761C094C5000031DCF /* 火影25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F3F1C094C4F00031DCF /* 火影25.png */; };
+		84C15F771C094C5000031DCF /* 火影26.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F401C094C4F00031DCF /* 火影26.png */; };
+		84C15F781C094C5000031DCF /* 火影27.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F411C094C4F00031DCF /* 火影27.png */; };
+		84C15F791C094C5000031DCF /* 火影28.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F421C094C4F00031DCF /* 火影28.png */; };
+		84C15F7A1C094C5000031DCF /* 火影29.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F431C094C4F00031DCF /* 火影29.png */; };
+		84C15F7B1C094C5000031DCF /* 火影30.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F441C094C4F00031DCF /* 火影30.png */; };
+		84C15F7C1C094C5000031DCF /* 火影31.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F451C094C4F00031DCF /* 火影31.png */; };
+		84C15F7D1C094C5000031DCF /* 火影32.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F461C094C4F00031DCF /* 火影32.png */; };
+		84C15F7E1C094C5000031DCF /* 火影33.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F471C094C4F00031DCF /* 火影33.png */; };
+		84C15F7F1C094C5000031DCF /* 火影34.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F481C094C4F00031DCF /* 火影34.png */; };
+		84C15F801C094C5000031DCF /* 火影35.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F491C094C4F00031DCF /* 火影35.png */; };
+		84C15F811C094C5000031DCF /* 火影36.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4A1C094C4F00031DCF /* 火影36.png */; };
+		84C15F821C094C5000031DCF /* 火影37.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4B1C094C4F00031DCF /* 火影37.png */; };
+		84C15F831C094C5000031DCF /* 火影38.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4C1C094C4F00031DCF /* 火影38.png */; };
+		84C15F841C094C5000031DCF /* 火影39.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4D1C094C4F00031DCF /* 火影39.png */; };
+		84C15F851C094C5000031DCF /* 火影40.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4E1C094C4F00031DCF /* 火影40.png */; };
+		84C15F861C094C5000031DCF /* 火影41.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F4F1C094C4F00031DCF /* 火影41.png */; };
+		84C15F871C094C5000031DCF /* 火影42.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F501C094C4F00031DCF /* 火影42.png */; };
+		84C15F881C094C5000031DCF /* 火影43.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F511C094C4F00031DCF /* 火影43.png */; };
+		84C15F891C094C5000031DCF /* 火影44.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F521C094C4F00031DCF /* 火影44.png */; };
+		84C15F8A1C094C5000031DCF /* 火影45.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F531C094C4F00031DCF /* 火影45.png */; };
+		84C15F8B1C094C5000031DCF /* 火影46.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F541C094C4F00031DCF /* 火影46.png */; };
+		84C15F8C1C094C5000031DCF /* 火影47.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F551C094C4F00031DCF /* 火影47.png */; };
+		84C15F8D1C094C5000031DCF /* 火影48.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F561C094C4F00031DCF /* 火影48.png */; };
+		84C15F8E1C094C5000031DCF /* 火影49.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F571C094C4F00031DCF /* 火影49.png */; };
+		84C15F8F1C094C5000031DCF /* 火影50.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F581C094C5000031DCF /* 火影50.png */; };
+		84C15F901C094C5000031DCF /* 火影51.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F591C094C5000031DCF /* 火影51.png */; };
+		84C15F911C094C5000031DCF /* 火影52.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F5A1C094C5000031DCF /* 火影52.png */; };
+		84C15F921C094C5000031DCF /* 火影53.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F5B1C094C5000031DCF /* 火影53.png */; };
+		84C15F931C094C5000031DCF /* 火影54.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C15F5C1C094C5000031DCF /* 火影54.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C15F131C09396300031DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C15EF11C09396300031DCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C15EF81C09396300031DCF;
+			remoteInfo = UIScrollView_reuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C15EF91C09396300031DCF /* UIScrollView_reuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollView_reuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C15EFD1C09396300031DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C15EFE1C09396300031DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C15F001C09396300031DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C15F011C09396300031DCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C15F031C09396300031DCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C15F041C09396300031DCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84C15F071C09396300031DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C15F091C09396300031DCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84C15F0C1C09396300031DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84C15F121C09396300031DCF /* UIScrollView_reuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollView_reuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C15F171C09396300031DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C15F181C09396300031DCF /* UIScrollView_reuseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_reuseTests.m; sourceTree = "<group>"; };
+		84C15F221C093AC200031DCF /* XTScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTScrollView.h; sourceTree = "<group>"; };
+		84C15F231C093AC200031DCF /* XTScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTScrollView.m; sourceTree = "<group>"; };
+		84C15F261C094C4F00031DCF /* image_火影忍者.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "image_火影忍者.plist"; sourceTree = "<group>"; };
+		84C15F271C094C4F00031DCF /* 火影01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影01.png"; sourceTree = "<group>"; };
+		84C15F281C094C4F00031DCF /* 火影02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影02.png"; sourceTree = "<group>"; };
+		84C15F291C094C4F00031DCF /* 火影03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影03.png"; sourceTree = "<group>"; };
+		84C15F2A1C094C4F00031DCF /* 火影04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影04.png"; sourceTree = "<group>"; };
+		84C15F2B1C094C4F00031DCF /* 火影05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影05.png"; sourceTree = "<group>"; };
+		84C15F2C1C094C4F00031DCF /* 火影06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影06.png"; sourceTree = "<group>"; };
+		84C15F2D1C094C4F00031DCF /* 火影07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影07.png"; sourceTree = "<group>"; };
+		84C15F2E1C094C4F00031DCF /* 火影08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影08.png"; sourceTree = "<group>"; };
+		84C15F2F1C094C4F00031DCF /* 火影09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影09.png"; sourceTree = "<group>"; };
+		84C15F301C094C4F00031DCF /* 火影10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影10.png"; sourceTree = "<group>"; };
+		84C15F311C094C4F00031DCF /* 火影11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影11.png"; sourceTree = "<group>"; };
+		84C15F321C094C4F00031DCF /* 火影12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影12.png"; sourceTree = "<group>"; };
+		84C15F331C094C4F00031DCF /* 火影13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影13.png"; sourceTree = "<group>"; };
+		84C15F341C094C4F00031DCF /* 火影14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影14.png"; sourceTree = "<group>"; };
+		84C15F351C094C4F00031DCF /* 火影15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影15.png"; sourceTree = "<group>"; };
+		84C15F361C094C4F00031DCF /* 火影16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影16.png"; sourceTree = "<group>"; };
+		84C15F371C094C4F00031DCF /* 火影17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影17.png"; sourceTree = "<group>"; };
+		84C15F381C094C4F00031DCF /* 火影18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影18.png"; sourceTree = "<group>"; };
+		84C15F391C094C4F00031DCF /* 火影19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影19.png"; sourceTree = "<group>"; };
+		84C15F3A1C094C4F00031DCF /* 火影20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影20.png"; sourceTree = "<group>"; };
+		84C15F3B1C094C4F00031DCF /* 火影21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影21.png"; sourceTree = "<group>"; };
+		84C15F3C1C094C4F00031DCF /* 火影22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影22.png"; sourceTree = "<group>"; };
+		84C15F3D1C094C4F00031DCF /* 火影23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影23.png"; sourceTree = "<group>"; };
+		84C15F3E1C094C4F00031DCF /* 火影24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影24.png"; sourceTree = "<group>"; };
+		84C15F3F1C094C4F00031DCF /* 火影25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影25.png"; sourceTree = "<group>"; };
+		84C15F401C094C4F00031DCF /* 火影26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影26.png"; sourceTree = "<group>"; };
+		84C15F411C094C4F00031DCF /* 火影27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影27.png"; sourceTree = "<group>"; };
+		84C15F421C094C4F00031DCF /* 火影28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影28.png"; sourceTree = "<group>"; };
+		84C15F431C094C4F00031DCF /* 火影29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影29.png"; sourceTree = "<group>"; };
+		84C15F441C094C4F00031DCF /* 火影30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影30.png"; sourceTree = "<group>"; };
+		84C15F451C094C4F00031DCF /* 火影31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影31.png"; sourceTree = "<group>"; };
+		84C15F461C094C4F00031DCF /* 火影32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影32.png"; sourceTree = "<group>"; };
+		84C15F471C094C4F00031DCF /* 火影33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影33.png"; sourceTree = "<group>"; };
+		84C15F481C094C4F00031DCF /* 火影34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影34.png"; sourceTree = "<group>"; };
+		84C15F491C094C4F00031DCF /* 火影35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影35.png"; sourceTree = "<group>"; };
+		84C15F4A1C094C4F00031DCF /* 火影36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影36.png"; sourceTree = "<group>"; };
+		84C15F4B1C094C4F00031DCF /* 火影37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影37.png"; sourceTree = "<group>"; };
+		84C15F4C1C094C4F00031DCF /* 火影38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影38.png"; sourceTree = "<group>"; };
+		84C15F4D1C094C4F00031DCF /* 火影39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影39.png"; sourceTree = "<group>"; };
+		84C15F4E1C094C4F00031DCF /* 火影40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影40.png"; sourceTree = "<group>"; };
+		84C15F4F1C094C4F00031DCF /* 火影41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影41.png"; sourceTree = "<group>"; };
+		84C15F501C094C4F00031DCF /* 火影42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影42.png"; sourceTree = "<group>"; };
+		84C15F511C094C4F00031DCF /* 火影43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影43.png"; sourceTree = "<group>"; };
+		84C15F521C094C4F00031DCF /* 火影44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影44.png"; sourceTree = "<group>"; };
+		84C15F531C094C4F00031DCF /* 火影45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影45.png"; sourceTree = "<group>"; };
+		84C15F541C094C4F00031DCF /* 火影46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影46.png"; sourceTree = "<group>"; };
+		84C15F551C094C4F00031DCF /* 火影47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影47.png"; sourceTree = "<group>"; };
+		84C15F561C094C4F00031DCF /* 火影48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影48.png"; sourceTree = "<group>"; };
+		84C15F571C094C4F00031DCF /* 火影49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影49.png"; sourceTree = "<group>"; };
+		84C15F581C094C5000031DCF /* 火影50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影50.png"; sourceTree = "<group>"; };
+		84C15F591C094C5000031DCF /* 火影51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影51.png"; sourceTree = "<group>"; };
+		84C15F5A1C094C5000031DCF /* 火影52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影52.png"; sourceTree = "<group>"; };
+		84C15F5B1C094C5000031DCF /* 火影53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影53.png"; sourceTree = "<group>"; };
+		84C15F5C1C094C5000031DCF /* 火影54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火影54.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C15EF61C09396300031DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C15F0F1C09396300031DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C15EF01C09396300031DCF = {
+			isa = PBXGroup;
+			children = (
+				84C15F221C093AC200031DCF /* XTScrollView.h */,
+				84C15F231C093AC200031DCF /* XTScrollView.m */,
+				84C15EFB1C09396300031DCF /* UIScrollView_reuse */,
+				84C15F151C09396300031DCF /* UIScrollView_reuseTests */,
+				84C15EFA1C09396300031DCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C15EFA1C09396300031DCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C15EF91C09396300031DCF /* UIScrollView_reuse.app */,
+				84C15F121C09396300031DCF /* UIScrollView_reuseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C15EFB1C09396300031DCF /* UIScrollView_reuse */ = {
+			isa = PBXGroup;
+			children = (
+				84C15F001C09396300031DCF /* AppDelegate.h */,
+				84C15F011C09396300031DCF /* AppDelegate.m */,
+				84C15F031C09396300031DCF /* ViewController.h */,
+				84C15F041C09396300031DCF /* ViewController.m */,
+				84C15F061C09396300031DCF /* Main.storyboard */,
+				84C15F091C09396300031DCF /* Images.xcassets */,
+				84C15F0B1C09396300031DCF /* LaunchScreen.xib */,
+				84C15EFC1C09396300031DCF /* Supporting Files */,
+				84C15F251C094C4F00031DCF /* 火影忍者 */,
+			);
+			path = UIScrollView_reuse;
+			sourceTree = "<group>";
+		};
+		84C15EFC1C09396300031DCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C15EFD1C09396300031DCF /* Info.plist */,
+				84C15EFE1C09396300031DCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C15F151C09396300031DCF /* UIScrollView_reuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C15F181C09396300031DCF /* UIScrollView_reuseTests.m */,
+				84C15F161C09396300031DCF /* Supporting Files */,
+			);
+			path = UIScrollView_reuseTests;
+			sourceTree = "<group>";
+		};
+		84C15F161C09396300031DCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C15F171C09396300031DCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C15F251C094C4F00031DCF /* 火影忍者 */ = {
+			isa = PBXGroup;
+			children = (
+				84C15F261C094C4F00031DCF /* image_火影忍者.plist */,
+				84C15F271C094C4F00031DCF /* 火影01.png */,
+				84C15F281C094C4F00031DCF /* 火影02.png */,
+				84C15F291C094C4F00031DCF /* 火影03.png */,
+				84C15F2A1C094C4F00031DCF /* 火影04.png */,
+				84C15F2B1C094C4F00031DCF /* 火影05.png */,
+				84C15F2C1C094C4F00031DCF /* 火影06.png */,
+				84C15F2D1C094C4F00031DCF /* 火影07.png */,
+				84C15F2E1C094C4F00031DCF /* 火影08.png */,
+				84C15F2F1C094C4F00031DCF /* 火影09.png */,
+				84C15F301C094C4F00031DCF /* 火影10.png */,
+				84C15F311C094C4F00031DCF /* 火影11.png */,
+				84C15F321C094C4F00031DCF /* 火影12.png */,
+				84C15F331C094C4F00031DCF /* 火影13.png */,
+				84C15F341C094C4F00031DCF /* 火影14.png */,
+				84C15F351C094C4F00031DCF /* 火影15.png */,
+				84C15F361C094C4F00031DCF /* 火影16.png */,
+				84C15F371C094C4F00031DCF /* 火影17.png */,
+				84C15F381C094C4F00031DCF /* 火影18.png */,
+				84C15F391C094C4F00031DCF /* 火影19.png */,
+				84C15F3A1C094C4F00031DCF /* 火影20.png */,
+				84C15F3B1C094C4F00031DCF /* 火影21.png */,
+				84C15F3C1C094C4F00031DCF /* 火影22.png */,
+				84C15F3D1C094C4F00031DCF /* 火影23.png */,
+				84C15F3E1C094C4F00031DCF /* 火影24.png */,
+				84C15F3F1C094C4F00031DCF /* 火影25.png */,
+				84C15F401C094C4F00031DCF /* 火影26.png */,
+				84C15F411C094C4F00031DCF /* 火影27.png */,
+				84C15F421C094C4F00031DCF /* 火影28.png */,
+				84C15F431C094C4F00031DCF /* 火影29.png */,
+				84C15F441C094C4F00031DCF /* 火影30.png */,
+				84C15F451C094C4F00031DCF /* 火影31.png */,
+				84C15F461C094C4F00031DCF /* 火影32.png */,
+				84C15F471C094C4F00031DCF /* 火影33.png */,
+				84C15F481C094C4F00031DCF /* 火影34.png */,
+				84C15F491C094C4F00031DCF /* 火影35.png */,
+				84C15F4A1C094C4F00031DCF /* 火影36.png */,
+				84C15F4B1C094C4F00031DCF /* 火影37.png */,
+				84C15F4C1C094C4F00031DCF /* 火影38.png */,
+				84C15F4D1C094C4F00031DCF /* 火影39.png */,
+				84C15F4E1C094C4F00031DCF /* 火影40.png */,
+				84C15F4F1C094C4F00031DCF /* 火影41.png */,
+				84C15F501C094C4F00031DCF /* 火影42.png */,
+				84C15F511C094C4F00031DCF /* 火影43.png */,
+				84C15F521C094C4F00031DCF /* 火影44.png */,
+				84C15F531C094C4F00031DCF /* 火影45.png */,
+				84C15F541C094C4F00031DCF /* 火影46.png */,
+				84C15F551C094C4F00031DCF /* 火影47.png */,
+				84C15F561C094C4F00031DCF /* 火影48.png */,
+				84C15F571C094C4F00031DCF /* 火影49.png */,
+				84C15F581C094C5000031DCF /* 火影50.png */,
+				84C15F591C094C5000031DCF /* 火影51.png */,
+				84C15F5A1C094C5000031DCF /* 火影52.png */,
+				84C15F5B1C094C5000031DCF /* 火影53.png */,
+				84C15F5C1C094C5000031DCF /* 火影54.png */,
+			);
+			name = "火影忍者";
+			path = "../火影忍者";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C15EF81C09396300031DCF /* UIScrollView_reuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C15F1C1C09396300031DCF /* Build configuration list for PBXNativeTarget "UIScrollView_reuse" */;
+			buildPhases = (
+				84C15EF51C09396300031DCF /* Sources */,
+				84C15EF61C09396300031DCF /* Frameworks */,
+				84C15EF71C09396300031DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollView_reuse;
+			productName = UIScrollView_reuse;
+			productReference = 84C15EF91C09396300031DCF /* UIScrollView_reuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C15F111C09396300031DCF /* UIScrollView_reuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C15F1F1C09396300031DCF /* Build configuration list for PBXNativeTarget "UIScrollView_reuseTests" */;
+			buildPhases = (
+				84C15F0E1C09396300031DCF /* Sources */,
+				84C15F0F1C09396300031DCF /* Frameworks */,
+				84C15F101C09396300031DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C15F141C09396300031DCF /* PBXTargetDependency */,
+			);
+			name = UIScrollView_reuseTests;
+			productName = UIScrollView_reuseTests;
+			productReference = 84C15F121C09396300031DCF /* UIScrollView_reuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C15EF11C09396300031DCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "夏婷";
+				TargetAttributes = {
+					84C15EF81C09396300031DCF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84C15F111C09396300031DCF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84C15EF81C09396300031DCF;
+					};
+				};
+			};
+			buildConfigurationList = 84C15EF41C09396300031DCF /* Build configuration list for PBXProject "UIScrollView_reuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C15EF01C09396300031DCF;
+			productRefGroup = 84C15EFA1C09396300031DCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C15EF81C09396300031DCF /* UIScrollView_reuse */,
+				84C15F111C09396300031DCF /* UIScrollView_reuseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C15EF71C09396300031DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C15F6A1C094C5000031DCF /* 火影13.png in Resources */,
+				84C15F791C094C5000031DCF /* 火影28.png in Resources */,
+				84C15F731C094C5000031DCF /* 火影22.png in Resources */,
+				84C15F901C094C5000031DCF /* 火影51.png in Resources */,
+				84C15F081C09396300031DCF /* Main.storyboard in Resources */,
+				84C15F661C094C5000031DCF /* 火影09.png in Resources */,
+				84C15F931C094C5000031DCF /* 火影54.png in Resources */,
+				84C15F0D1C09396300031DCF /* LaunchScreen.xib in Resources */,
+				84C15F5D1C094C5000031DCF /* image_火影忍者.plist in Resources */,
+				84C15F631C094C5000031DCF /* 火影06.png in Resources */,
+				84C15F8F1C094C5000031DCF /* 火影50.png in Resources */,
+				84C15F861C094C5000031DCF /* 火影41.png in Resources */,
+				84C15F831C094C5000031DCF /* 火影38.png in Resources */,
+				84C15F811C094C5000031DCF /* 火影36.png in Resources */,
+				84C15F8C1C094C5000031DCF /* 火影47.png in Resources */,
+				84C15F7D1C094C5000031DCF /* 火影32.png in Resources */,
+				84C15F7C1C094C5000031DCF /* 火影31.png in Resources */,
+				84C15F7A1C094C5000031DCF /* 火影29.png in Resources */,
+				84C15F6F1C094C5000031DCF /* 火影18.png in Resources */,
+				84C15F741C094C5000031DCF /* 火影23.png in Resources */,
+				84C15F841C094C5000031DCF /* 火影39.png in Resources */,
+				84C15F8E1C094C5000031DCF /* 火影49.png in Resources */,
+				84C15F871C094C5000031DCF /* 火影42.png in Resources */,
+				84C15F641C094C5000031DCF /* 火影07.png in Resources */,
+				84C15F801C094C5000031DCF /* 火影35.png in Resources */,
+				84C15F671C094C5000031DCF /* 火影10.png in Resources */,
+				84C15F6B1C094C5000031DCF /* 火影14.png in Resources */,
+				84C15F7E1C094C5000031DCF /* 火影33.png in Resources */,
+				84C15F611C094C5000031DCF /* 火影04.png in Resources */,
+				84C15F7F1C094C5000031DCF /* 火影34.png in Resources */,
+				84C15F851C094C5000031DCF /* 火影40.png in Resources */,
+				84C15F8D1C094C5000031DCF /* 火影48.png in Resources */,
+				84C15F681C094C5000031DCF /* 火影11.png in Resources */,
+				84C15F5E1C094C5000031DCF /* 火影01.png in Resources */,
+				84C15F881C094C5000031DCF /* 火影43.png in Resources */,
+				84C15F701C094C5000031DCF /* 火影19.png in Resources */,
+				84C15F691C094C5000031DCF /* 火影12.png in Resources */,
+				84C15F0A1C09396300031DCF /* Images.xcassets in Resources */,
+				84C15F601C094C5000031DCF /* 火影03.png in Resources */,
+				84C15F911C094C5000031DCF /* 火影52.png in Resources */,
+				84C15F8B1C094C5000031DCF /* 火影46.png in Resources */,
+				84C15F711C094C5000031DCF /* 火影20.png in Resources */,
+				84C15F721C094C5000031DCF /* 火影21.png in Resources */,
+				84C15F751C094C5000031DCF /* 火影24.png in Resources */,
+				84C15F5F1C094C5000031DCF /* 火影02.png in Resources */,
+				84C15F771C094C5000031DCF /* 火影26.png in Resources */,
+				84C15F621C094C5000031DCF /* 火影05.png in Resources */,
+				84C15F651C094C5000031DCF /* 火影08.png in Resources */,
+				84C15F781C094C5000031DCF /* 火影27.png in Resources */,
+				84C15F761C094C5000031DCF /* 火影25.png in Resources */,
+				84C15F7B1C094C5000031DCF /* 火影30.png in Resources */,
+				84C15F821C094C5000031DCF /* 火影37.png in Resources */,
+				84C15F8A1C094C5000031DCF /* 火影45.png in Resources */,
+				84C15F6D1C094C5000031DCF /* 火影16.png in Resources */,
+				84C15F6C1C094C5000031DCF /* 火影15.png in Resources */,
+				84C15F6E1C094C5000031DCF /* 火影17.png in Resources */,
+				84C15F891C094C5000031DCF /* 火影44.png in Resources */,
+				84C15F921C094C5000031DCF /* 火影53.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C15F101C09396300031DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C15EF51C09396300031DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C15F051C09396300031DCF /* ViewController.m in Sources */,
+				84C15F021C09396300031DCF /* AppDelegate.m in Sources */,
+				84C15EFF1C09396300031DCF /* main.m in Sources */,
+				84C15F241C093AC200031DCF /* XTScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C15F0E1C09396300031DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C15F191C09396300031DCF /* UIScrollView_reuseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C15F141C09396300031DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C15EF81C09396300031DCF /* UIScrollView_reuse */;
+			targetProxy = 84C15F131C09396300031DCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C15F061C09396300031DCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C15F071C09396300031DCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C15F0B1C09396300031DCF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C15F0C1C09396300031DCF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C15F1A1C09396300031DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C15F1B1C09396300031DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C15F1D1C09396300031DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollView_reuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C15F1E1C09396300031DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScrollView_reuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84C15F201C09396300031DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollView_reuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView_reuse.app/UIScrollView_reuse";
+			};
+			name = Debug;
+		};
+		84C15F211C09396300031DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIScrollView_reuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView_reuse.app/UIScrollView_reuse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C15EF41C09396300031DCF /* Build configuration list for PBXProject "UIScrollView_reuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C15F1A1C09396300031DCF /* Debug */,
+				84C15F1B1C09396300031DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C15F1C1C09396300031DCF /* Build configuration list for PBXNativeTarget "UIScrollView_reuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C15F1D1C09396300031DCF /* Debug */,
+				84C15F1E1C09396300031DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C15F1F1C09396300031DCF /* Build configuration list for PBXNativeTarget "UIScrollView_reuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C15F201C09396300031DCF /* Debug */,
+				84C15F211C09396300031DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C15EF11C09396300031DCF /* Project object */;
+}

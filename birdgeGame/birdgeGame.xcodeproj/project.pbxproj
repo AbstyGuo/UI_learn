@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8FD5921C0F19F6008566AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FD5911C0F19F6008566AB /* main.m */; };
+		4E8FD5951C0F19F6008566AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FD5941C0F19F6008566AB /* AppDelegate.m */; };
+		4E8FD5981C0F19F6008566AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FD5971C0F19F6008566AB /* ViewController.m */; };
+		4E8FD59B1C0F19F6008566AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FD5991C0F19F6008566AB /* Main.storyboard */; };
+		4E8FD59D1C0F19F6008566AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FD59C1C0F19F6008566AB /* Images.xcassets */; };
+		4E8FD5A01C0F19F6008566AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FD59E1C0F19F6008566AB /* LaunchScreen.xib */; };
+		4E8FD5AC1C0F19F6008566AB /* birdgeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FD5AB1C0F19F6008566AB /* birdgeGameTests.m */; };
+		4EBF9B171C0FC8E30025056B /* subViewOfPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF9B161C0FC8E30025056B /* subViewOfPage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8FD5A61C0F19F6008566AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FD5841C0F19F6008566AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8FD58B1C0F19F6008566AB;
+			remoteInfo = birdgeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8FD58C1C0F19F6008566AB /* birdgeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdgeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8FD5901C0F19F6008566AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8FD5911C0F19F6008566AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8FD5931C0F19F6008566AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E8FD5941C0F19F6008566AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E8FD5961C0F19F6008566AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E8FD5971C0F19F6008566AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E8FD59A1C0F19F6008566AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E8FD59C1C0F19F6008566AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8FD59F1C0F19F6008566AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E8FD5A51C0F19F6008566AB /* birdgeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birdgeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8FD5AA1C0F19F6008566AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8FD5AB1C0F19F6008566AB /* birdgeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = birdgeGameTests.m; sourceTree = "<group>"; };
+		4EBF9B151C0FC8E30025056B /* subViewOfPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subViewOfPage.h; sourceTree = "<group>"; };
+		4EBF9B161C0FC8E30025056B /* subViewOfPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subViewOfPage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8FD5891C0F19F6008566AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8FD5A21C0F19F6008566AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8FD5831C0F19F6008566AB = {
+			isa = PBXGroup;
+			children = (
+				4E8FD58E1C0F19F6008566AB /* birdgeGame */,
+				4E8FD5A81C0F19F6008566AB /* birdgeGameTests */,
+				4E8FD58D1C0F19F6008566AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8FD58D1C0F19F6008566AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FD58C1C0F19F6008566AB /* birdgeGame.app */,
+				4E8FD5A51C0F19F6008566AB /* birdgeGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8FD58E1C0F19F6008566AB /* birdgeGame */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FD5931C0F19F6008566AB /* AppDelegate.h */,
+				4E8FD5941C0F19F6008566AB /* AppDelegate.m */,
+				4E8FD5961C0F19F6008566AB /* ViewController.h */,
+				4E8FD5971C0F19F6008566AB /* ViewController.m */,
+				4EBF9B151C0FC8E30025056B /* subViewOfPage.h */,
+				4EBF9B161C0FC8E30025056B /* subViewOfPage.m */,
+				4E8FD5991C0F19F6008566AB /* Main.storyboard */,
+				4E8FD59C1C0F19F6008566AB /* Images.xcassets */,
+				4E8FD59E1C0F19F6008566AB /* LaunchScreen.xib */,
+				4E8FD58F1C0F19F6008566AB /* Supporting Files */,
+			);
+			path = birdgeGame;
+			sourceTree = "<group>";
+		};
+		4E8FD58F1C0F19F6008566AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FD5901C0F19F6008566AB /* Info.plist */,
+				4E8FD5911C0F19F6008566AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8FD5A81C0F19F6008566AB /* birdgeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FD5AB1C0F19F6008566AB /* birdgeGameTests.m */,
+				4E8FD5A91C0F19F6008566AB /* Supporting Files */,
+			);
+			path = birdgeGameTests;
+			sourceTree = "<group>";
+		};
+		4E8FD5A91C0F19F6008566AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FD5AA1C0F19F6008566AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8FD58B1C0F19F6008566AB /* birdgeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8FD5AF1C0F19F6008566AB /* Build configuration list for PBXNativeTarget "birdgeGame" */;
+			buildPhases = (
+				4E8FD5881C0F19F6008566AB /* Sources */,
+				4E8FD5891C0F19F6008566AB /* Frameworks */,
+				4E8FD58A1C0F19F6008566AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = birdgeGame;
+			productName = birdgeGame;
+			productReference = 4E8FD58C1C0F19F6008566AB /* birdgeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8FD5A41C0F19F6008566AB /* birdgeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8FD5B21C0F19F6008566AB /* Build configuration list for PBXNativeTarget "birdgeGameTests" */;
+			buildPhases = (
+				4E8FD5A11C0F19F6008566AB /* Sources */,
+				4E8FD5A21C0F19F6008566AB /* Frameworks */,
+				4E8FD5A31C0F19F6008566AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8FD5A71C0F19F6008566AB /* PBXTargetDependency */,
+			);
+			name = birdgeGameTests;
+			productName = birdgeGameTests;
+			productReference = 4E8FD5A51C0F19F6008566AB /* birdgeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8FD5841C0F19F6008566AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "郭永峰";
+				TargetAttributes = {
+					4E8FD58B1C0F19F6008566AB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4E8FD5A41C0F19F6008566AB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4E8FD58B1C0F19F6008566AB;
+					};
+				};
+			};
+			buildConfigurationList = 4E8FD5871C0F19F6008566AB /* Build configuration list for PBXProject "birdgeGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8FD5831C0F19F6008566AB;
+			productRefGroup = 4E8FD58D1C0F19F6008566AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8FD58B1C0F19F6008566AB /* birdgeGame */,
+				4E8FD5A41C0F19F6008566AB /* birdgeGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8FD58A1C0F19F6008566AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FD59B1C0F19F6008566AB /* Main.storyboard in Resources */,
+				4E8FD5A01C0F19F6008566AB /* LaunchScreen.xib in Resources */,
+				4E8FD59D1C0F19F6008566AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8FD5A31C0F19F6008566AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8FD5881C0F19F6008566AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBF9B171C0FC8E30025056B /* subViewOfPage.m in Sources */,
+				4E8FD5981C0F19F6008566AB /* ViewController.m in Sources */,
+				4E8FD5951C0F19F6008566AB /* AppDelegate.m in Sources */,
+				4E8FD5921C0F19F6008566AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8FD5A11C0F19F6008566AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FD5AC1C0F19F6008566AB /* birdgeGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8FD5A71C0F19F6008566AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8FD58B1C0F19F6008566AB /* birdgeGame */;
+			targetProxy = 4E8FD5A61C0F19F6008566AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8FD5991C0F19F6008566AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8FD59A1C0F19F6008566AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E8FD59E1C0F19F6008566AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8FD59F1C0F19F6008566AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8FD5AD1C0F19F6008566AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E8FD5AE1C0F19F6008566AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8FD5B01C0F19F6008566AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = birdgeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E8FD5B11C0F19F6008566AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = birdgeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E8FD5B31C0F19F6008566AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = birdgeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdgeGame.app/birdgeGame";
+			};
+			name = Debug;
+		};
+		4E8FD5B41C0F19F6008566AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = birdgeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdgeGame.app/birdgeGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8FD5871C0F19F6008566AB /* Build configuration list for PBXProject "birdgeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8FD5AD1C0F19F6008566AB /* Debug */,
+				4E8FD5AE1C0F19F6008566AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8FD5AF1C0F19F6008566AB /* Build configuration list for PBXNativeTarget "birdgeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8FD5B01C0F19F6008566AB /* Debug */,
+				4E8FD5B11C0F19F6008566AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8FD5B21C0F19F6008566AB /* Build configuration list for PBXNativeTarget "birdgeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8FD5B31C0F19F6008566AB /* Debug */,
+				4E8FD5B41C0F19F6008566AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8FD5841C0F19F6008566AB /* Project object */;
+}
